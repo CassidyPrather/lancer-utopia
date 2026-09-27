@@ -3,11 +3,37 @@
   "title": "Утопия: Simultaneous Declarations",
   "description": "Round structure for the Утопия Lancer variant: everyone declares their actions and moves in secret, the GM reveals them together, then PC actions, NPC actions, PC moves and NPC moves resolve in phases.",
   "version": "0.1.0",
-  "authors": [{ "name": "Cassidy" }],
-  "compatibility": { "minimum": "14", "verified": "14.368", "maximum": "14" },
-  "relationships": {
-    "systems": [{ "id": "lancer", "type": "system", "compatibility": { "minimum": "3.2.0" } }]
+  "authors": [
+    {
+      "name": "Cassidy"
+    }
+  ],
+  "url": "https://github.com/CassidyPrather/lancer-utopia",
+  "manifest": "https://github.com/CassidyPrather/lancer-utopia/releases/latest/download/module.json",
+  "download": "https://github.com/CassidyPrather/lancer-utopia/releases/download/v0.1.0/utopia.zip",
+  "license": "LICENSE",
+  "readme": "https://github.com/CassidyPrather/lancer-utopia/blob/main/README.md",
+  "bugs": "https://github.com/CassidyPrather/lancer-utopia/issues",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.368",
+    "maximum": "14"
   },
-  "esmodules": ["scripts/utopia.mjs"],
-  "styles": ["styles/utopia.css"]
+  "relationships": {
+    "systems": [
+      {
+        "id": "lancer",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.2.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/utopia.mjs"
+  ],
+  "styles": [
+    "styles/utopia.css"
+  ]
 }

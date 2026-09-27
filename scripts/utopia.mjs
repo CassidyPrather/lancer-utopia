@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: AGPL-3.0-only
 // Утопия round structure for Lancer: characters declare their actions and moves in secret, the GM reveals
 // every declaration at once, then the round resolves in phases: PC actions, NPC actions, PC moves, NPC moves.
 //
