@@ -1,0 +1,119 @@
+.utopia-banner {
+  margin: 0.25rem 0.5rem 0.5rem;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid var(--color-border, #888);
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.utopia-banner .utopia-title {
+  font-weight: bold;
+  text-align: center;
+}
+.utopia-banner .utopia-steps {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2px;
+  font-size: 0.75rem;
+}
+.utopia-banner .utopia-steps li {
+  flex: 1;
+  text-align: center;
+  padding: 2px;
+  border-radius: 3px;
+  opacity: 0.55;
+  background: rgba(255, 255, 255, 0.06);
+}
+.utopia-banner .utopia-steps li.active {
+  opacity: 1;
+  font-weight: bold;
+  background: var(--color-warm-2, #c9593f);
+  color: white;
+}
+.utopia-banner .utopia-progress {
+  font-size: 0.8rem;
+  text-align: center;
+}
+.utopia-banner .utopia-buttons {
+  display: flex;
+  gap: 0.3rem;
+}
+.utopia-banner .utopia-buttons button {
+  flex: 1;
+}
+
+.utopia .window-content {
+  gap: 0.5rem;
+}
+.utopia .utopia-round {
+  font-weight: bold;
+  margin: 0;
+}
+.utopia .utopia-block {
+  border: 1px solid var(--color-border, #888);
+  border-radius: 4px;
+  padding: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.utopia .utopia-block.locked {
+  opacity: 0.85;
+}
+.utopia .utopia-name {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: bold;
+}
+.utopia .utopia-name img {
+  width: 28px;
+  height: 28px;
+  border: none;
+  object-fit: cover;
+}
+.utopia .utopia-name button {
+  margin-left: auto;
+  width: auto;
+  flex: 0;
+}
+.utopia label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.85rem;
+}
+.utopia .utopia-controls {
+  display: flex;
+  gap: 0.4rem;
+}
+.utopia .utopia-empty,
+.utopia .utopia-status {
+  margin: 0;
+  font-style: italic;
+}
+
+.utopia-card h3 {
+  margin: 0 0 0.3rem;
+}
+.utopia-card h4 {
+  margin: 0.4rem 0 0.2rem;
+  border-bottom: 1px solid currentColor;
+}
+.utopia-decl {
+  margin-bottom: 0.35rem;
+}
+.utopia-decl .utopia-name {
+  font-weight: bold;
+}
+.utopia-line .utopia-label,
+.utopia .utopia-line .utopia-label {
+  font-weight: bold;
+  margin-right: 0.35rem;
+}
+.utopia-line .utopia-label::after {
+  content: ":";
+}

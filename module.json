@@ -1,0 +1,13 @@
+{
+  "id": "utopia",
+  "title": "Утопия: Simultaneous Declarations",
+  "description": "Round structure for the Утопия Lancer variant: everyone declares their actions and moves in secret, the GM reveals them together, then PC actions, NPC actions, PC moves and NPC moves resolve in phases.",
+  "version": "0.1.0",
+  "authors": [{ "name": "Cassidy" }],
+  "compatibility": { "minimum": "14", "verified": "14.368", "maximum": "14" },
+  "relationships": {
+    "systems": [{ "id": "lancer", "type": "system", "compatibility": { "minimum": "3.2.0" } }]
+  },
+  "esmodules": ["scripts/utopia.mjs"],
+  "styles": ["styles/utopia.css"]
+}
